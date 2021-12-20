@@ -3,13 +3,16 @@
 > 配置中心现在基本上是大型互联网公司的标配，用于管理公司各个系统繁杂的配置，降低配置维护成本。configcenter是一款操作简单、维护成本低的配置中心。提供了统一的管理配置能力、配置发布回滚能力、配置更新秒级推送能力、客户端配置缓存能力、对客户端验权防止生产环境配置泄漏风险的能力、对敏感配置设置访问权限能力、管理员权限管理能力。configcenter具备完善的权限管理和敏感配置标记能力，让你可以放心的将生产环境配置放权给开发人员，让他们自助的管理非敏感配置，提高工作效率。
 
 2. 环境要求
-> - 服务端：jdk1.8、MySQL、Redis
-> - 客户端：jdk1.8
+> - 服务端：JDK1.8、MySQL（或者PostgreSQL）、Redis
+> - 客户端：JDK1.8
 
 3. 演示环境
-> 地址：<a href="http://configcenter.antframework.org:6220" target="_blank">http://configcenter.antframework.org:6220</a><br/>
+> 地址：http://47.108.55.170:6220 <br/>
 > 超级管理员账号：admin 密码：123 <br/>
-> 普通管理员账号：normal 密码：123
+> 普通管理员账号：normal 密码：123 <br/>
+
+> 获取配置样例：http://47.108.55.170:6220/config/findConfig?mainAppId=customer&queriedAppId=customer&profileId=dev
+
 <img src="https://note.youdao.com/yws/api/personal/file/WEBd9e53ad6cc4303c226ad4cc0fa97beb6?method=download&shareKey=a585867fddafacb944df2d22607479cd" width=700 />
 
 # 特性
